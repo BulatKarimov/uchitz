@@ -1,0 +1,75 @@
+#task{
+    width: 875px;
+    margin: 150px auto;
+    display: block;
+    height: auto;
+}
+#sprite{
+    width: 875px;
+    height: 115px;
+}
+#title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    text-align: center;
+}
+#first_number{
+    text-align: center;
+    padding: 0px 0px 0px 6px;
+}
+#second_number{
+    text-align: center;
+    padding: 0px 6px 0px 6px;    
+}
+.answer{
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 3px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+#final{
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -o-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.true{
+    border: none;
+    outline: none;
+}
+.false{
+    color: red;
+}
+.false_title{
+    background-color: orange;
+}
+.hidden{
+ display: none;   
+}
+#first{
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+}
+#second{
+    -webkit-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+    transform: translateY(30px);
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+}
